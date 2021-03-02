@@ -1,0 +1,8 @@
+
+spring:
+  application:
+    name: 'assistente'
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/postgres?schema=chatbot
+    username: postgres
+    password: root
